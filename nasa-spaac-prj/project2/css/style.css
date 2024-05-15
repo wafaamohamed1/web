@@ -1,0 +1,13 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: rgb(211, 217, 223);
+}
+
+.carousel-item img {
+    height: 95vh;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>one task</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+        
+        <div class="toggle-container">
+            <label class="switch">
+                <input type="checkbox" id="modeToggle">
+                <span class="slider round"></span>
+            </label>
+            <span id="modeLabel"></span>
+        </div>
+    
+
+    <script>
+        const modeToggle = document.getElementById("modeToggle");
+        const modeLabel = document.getElementById("modeLabel");
+        const body = document.body;
+
+        
+        modeToggle.addEventListener("change", () => {
+            if (modeToggle.checked) {
+            
+                body.classList.add("dark-mode");
+                modeLabel.textContent = " Dark Mode";
+            } else {
+            
+                body.classList.remove("dark-mode");
+                modeLabel.textContent = "Right Mode";
+            }
+        });
+    </script>
+</body>
+</html>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

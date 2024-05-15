@@ -1,0 +1,48 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Autour One', cursive;
+font-family: 'Fuggles', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Work Sans', sans-serif;
+background:url(ucspanishpodlaunchnotext\ \(1\).webp);
+background-size: 100%;
+overflow: hidden;
+}
+
+
+img{
+    position:relative;
+    
+animation-name: sun;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+    width:200px;
+    height: 200px;
+    display: inline;
+}
+@keyframes sun{
+    0%{left:0px;}
+    100%{left: 100%;}
+}
+button{
+    position:relative;
+    left: 550px;
+    margin:auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    color: rgb(6, 48, 128);
+    font-size: 100px;
+   background-image: url(b7b61d98f9e86ac3ae8ccf7fe654a87b.jpg);
+   background-size: cover;
+   box-shadow: 3px ,6px;
+   transition: transform , 1s;
+}
+button :hover{
+    transform: scale(1,5);
+}

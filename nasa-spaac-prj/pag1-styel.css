@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Autour One', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Fuggles', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    background-image: url(pngtree-cartoon-space-planet-background-picture-image_133372.jpg);
+    background-size:cover;
+    overflow:visible;
+   
+}
+.headr{
+    margin: 100px;
+    text-align: center;
+    text-align: center;
+    overflow: auto;
+    font-size: 100px;
+       position: relative;
+    top: 30px;
+    color: rgb(146, 110, 160);
+ 
+    border: 20%;
+    
+}
+
+ .part{
+   
+    width: 30.33%;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    transition: transform 2s ease;
+    overflow:unset;
+    float:left;
+    position: relative;
+    top:500PX;
+
+}
+ img{
+width: 100% ;
+border-radius: 100%;
+width: 1200px;
+height: 1200px;
+}
+h2{
+    
+    font-size: 200px;
+color: rgb(30, 30, 73);
+}
+.t h2{
+   
+     left:40px
+ 
+}
+.part :hover{
+    transform: scale(1.1);
+}

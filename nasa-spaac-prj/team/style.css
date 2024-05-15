@@ -1,0 +1,105 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: black;
+    background-image: url(stars1.png);
+
+}
+.moon{
+    position: relative;
+    top:-600px;
+
+}
+.container{
+    position: relative;
+    top:250px;
+}
+.game {
+    width: 255px;
+    text-align: center;
+    color: white;
+    margin: auto;
+    font-weight: 500;
+}
+
+.title {
+    background: rgb(27, 43, 123);
+    padding: 5px 0;
+    margin: 5px 0;
+}
+
+span {
+    color: #fa0;
+}
+
+.square {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(27, 43, 123);;
+    float: left;
+    margin: 2px;
+    font-size:50px ;
+}
+.square:hover{
+    background-color: black;
+    cursor: pointer;
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #000;
+height: 100vh;
+    color: aliceblue;
+
+}
+.container{
+position: absolute;
+top:150px;
+left: 500px;
+}
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    font-size: 36px;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #956fb3;
+    transition: background-color 0.3s;
+}
+
+.cell:hover {
+    background-color: #eee;
+}
+
+.Sun {
+    background-color: yellow;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+
+.Moon {
+    background-color: gray;
+    border: 2px solid #000;
+    border-radius: 50%;
+}

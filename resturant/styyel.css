@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding:0% ;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.home{
+    background-image: url("c.jpg");
+    height: 610px;
+    text-align: center;
+    background-size:cover;
+    overflow:auto;
+}
+.head{
+    margin-top: 140px;
+    font-size: 50px;
+    font-family: "Sofia", sans-serif;
+font-weight: 900;
+}
+.content{
+    color:white;
+}
+.bot {
+    padding: 15px 27px;
+    margin-top: 20px;
+    border: none;
+   
+}
+.botn1{
+     background-color: rgb(146, 128, 105);
+}
+.botn2{
+    background-color: beige;
+}
+.head2{
+    margin: 10px;
+    font-size: 30px;
+}
+.paraph{
+    font-family: 'Fuggles', cursive;
+    font-size: 25px;
+
+    font-size: 50px;
+    margin: 5px;
+}
+.meals{
+    overflow: auto;
+    padding: 50px 0px;
+    text-align: center;
+    margin: auto;
+}
+
+.meal{
+    margin: auto;
+    float: left;
+    width: 25%;
+    text-align: center;
+    font-family: 'Fuggles', cursive;
+    font-family: 'Work Sans', sans-serif;
+    
+    padding: 20px;
+}
+.meal img {
+ 
+border-radius: 50%;
+width: 100%
+
+}
+.meal h2{
+    padding-top: 20px;
+}
+.meal p{
+    padding-top: 15px;
+}
+.meal .bord{
+    width: 100px;
+    height: 3px;
+    margin: auto;
+    
+    border-radius: 10%;
+    margin-top: 10px;
+
+}
+
+@media (min-width:0px)and(max-width: 576px;)
+{
+    .meal{
+       width: 100%; 
+       background-color: blueviolet;
+    }
+}
+@media (min-width:577px)and(max-width: 768px;)
+{
+  .meal{
+    width:50%
+  }
+}
+@media (min-width:769px)and(max-width: 992px;)
+{
+    body{
+        background-color: blue;
+    }
+  .meal{
+    width: 33,33%
+  }
+}
+@media (min-width:993px)and(max-width: 1200px;)
+{
+   .meal{
+    width:25%
+   }
+}
+.t h2{
+    
+}
+        

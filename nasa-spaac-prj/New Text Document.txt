@@ -1,0 +1,14 @@
+img{
+    position:relative;
+    
+animation-name: sun;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+    width:200px;
+    height: 200px;
+    display: inline;
+}
+@keyframes sun{
+    0%{left:0px;}
+    100%{left: 100%;}
+}
