@@ -1,1 +1,1 @@
-fromt end web application
+front end web application
